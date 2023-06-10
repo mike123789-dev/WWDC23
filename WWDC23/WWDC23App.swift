@@ -10,10 +10,18 @@ import SwiftData
 
 @main
 struct WWDC23App: App {
-
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                List {
+                    NavigationLink("Symbols") {
+                        Symbols()
+                    }
+                    NavigationLink("SwiftData") {
+                        ContentView()
+                    }
+                }
+            }
         }
         .modelContainer(for: Item.self)
     }

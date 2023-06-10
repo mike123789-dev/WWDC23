@@ -15,6 +15,7 @@
 		3D1C6F7F2A34349E008228E2 /* WWDC23Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C6F7E2A34349E008228E2 /* WWDC23Tests.swift */; };
 		3D1C6F892A34349E008228E2 /* WWDC23UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C6F882A34349E008228E2 /* WWDC23UITests.swift */; };
 		3D1C6F8B2A34349E008228E2 /* WWDC23UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C6F8A2A34349E008228E2 /* WWDC23UITestsLaunchTests.swift */; };
+		3D1C6F982A3434F4008228E2 /* Symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C6F972A3434F4008228E2 /* Symbols.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		3D1C6F842A34349E008228E2 /* WWDC23UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WWDC23UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D1C6F882A34349E008228E2 /* WWDC23UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDC23UITests.swift; sourceTree = "<group>"; };
 		3D1C6F8A2A34349E008228E2 /* WWDC23UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WWDC23UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3D1C6F972A3434F4008228E2 /* Symbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbols.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			children = (
 				3D1C6F692A34349D008228E2 /* WWDC23App.swift */,
 				3D1C6F6B2A34349D008228E2 /* ContentView.swift */,
+				3D1C6F972A3434F4008228E2 /* Symbols.swift */,
 				3D1C6F6D2A34349E008228E2 /* Assets.xcassets */,
 				3D1C6F722A34349E008228E2 /* Item.swift */,
 				3D1C6F742A34349E008228E2 /* WWDC23.entitlements */,
@@ -265,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D1C6F6C2A34349D008228E2 /* ContentView.swift in Sources */,
+				3D1C6F982A3434F4008228E2 /* Symbols.swift in Sources */,
 				3D1C6F732A34349E008228E2 /* Item.swift in Sources */,
 				3D1C6F6A2A34349D008228E2 /* WWDC23App.swift in Sources */,
 			);
